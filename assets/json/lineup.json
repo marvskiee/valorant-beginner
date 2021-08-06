@@ -1,0 +1,117 @@
+[
+    {
+        "lineup" : [
+            {
+                "name": "killjoy",
+                "icebox": "https://www.youtube.com/embed/oo4sxH2KGmM",
+                "breeze": "https://www.youtube.com/embed/Ku4aDz9lcuI",
+                "bind": "https://www.youtube.com/embed/5BgLNfY13nE",
+                "haven": "https://www.youtube.com/embed/F40H_IPYHjo",
+                "split": "https://www.youtube.com/embed/3KWlebJanHw",
+                "ascent": "https://www.youtube.com/embed/e_QuMVa2LGY"
+            },
+            {
+                "name": "brimstone",
+                "icebox": "https://www.youtube.com/embed/dt-3aGxuB7Y",
+                "breeze": "https://www.youtube.com/embed/HynOFrq5Pf4",
+                "bind": "https://www.youtube.com/embed/MAxdz-yauRY",
+                "haven": "https://www.youtube.com/embed/yKBwtHXlpHg",
+                "split": "https://www.youtube.com/embed/_zaTWfacc2c",
+                "ascent": "https://www.youtube.com/embed/Ao4lRHfAi_Y"
+            },
+            {
+                "name": "phoenix",
+                "icebox": "https://www.youtube.com/embed/IpJt0ZfhR2o",
+                "breeze": "https://www.youtube.com/embed/whFAC0r7lGI",
+                "bind": "https://www.youtube.com/embed/9oS1V04-RgI",
+                "haven": "https://www.youtube.com/embed/TdYbPYsTwUI",
+                "split": "https://www.youtube.com/embed/lrHGMOshxhg",
+                "ascent": "https://www.youtube.com/embed/ibBgL-oaTYo"
+            },
+            {
+                "name": "sova",
+                "icebox": "https://www.youtube.com/embed/I2ap1J0jCw0",
+                "breeze": "https://www.youtube.com/embed/BQ3kPOmZxjQ",
+                "bind": "https://www.youtube.com/embed/inN4yM2ftUs",
+                "haven": "https://www.youtube.com/embed/OifM-_JxlVo",
+                "split": "https://www.youtube.com/embed/hnLQlVqJtGQ",
+                "ascent": "https://www.youtube.com/embed/Ejz3T8TTSKA"
+            },
+            {
+                "name": "viper",
+                "icebox": "https://www.youtube.com/embed/b3F1hAkYDA8",
+                "breeze": "https://www.youtube.com/embed/6_4YcjdB8Q4",
+                "bind": "https://www.youtube.com/embed/9-QUa6deCis",
+                "haven": "https://www.youtube.com/embed/OmK39mfYuy8",
+                "split": "https://www.youtube.com/embed/QgQYVWRijwE",
+                "ascent": "https://www.youtube.com/embed/h_0zJevJR00"
+            },
+            {
+                "name": "kay-o",
+                "icebox": "https://www.youtube.com/embed/V05XXKXAK0M",
+                "breeze": "https://www.youtube.com/embed/nJRyuIBdHbc",
+                "bind": "https://www.youtube.com/embed/ynJ176_zJKc",
+                "haven": "https://www.youtube.com/embed/MDpLONaLL28",
+                "split": "https://www.youtube.com/embed/khiQtrfXn5I",
+                "ascent": "https://www.youtube.com/embed/hmfLLIxK610"
+            }
+        ],
+        "maps": [
+            {
+                "name": "breeze",
+                "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltb03d2e4867f2e324/607f995892f0063e5c0711bd/breeze-featured_v1.png"
+            },
+            {
+                "name": "icebox",
+                "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltde02911a015d7ef9/5f80d2851f5f6d4173b4e49d/Icebox_transparentbg_for_Web.png"
+            },
+            {
+                "name": "bind",
+                "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8538036a309525ae/5ebc470bfd85ad7411ce6b50/bind-featured.png"
+            },
+            {
+                "name": "haven",
+                "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8afb5b8145f5e9b2/5ebc46f7b8c49976b71c0bc5/haven-featured.png"
+            },
+            {
+                "name": "split",
+                "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd188c023f88f7d91/5ebc46db20f7727335261fcd/split-featured.png"
+            },
+            {
+                "name": "ascent",
+                "url": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blta9b912e1a1b59aa4/5ebc471cfa550001f72bcb13/ascent-featured.png"
+            }
+
+        ]
+        ,
+        "guide":[
+            {
+                "name":"brimstone",
+                "url": "https://www.youtube.com/embed/p86fBVN2Ayk"
+            },
+            {
+                "name": "killjoy",
+                "url": "https://www.youtube.com/embed/-XQk4R_U0-A"
+            },
+            {
+                "name": "viper",
+                "url": "https://www.youtube.com/embed/wdfxZGT7efI"
+            },
+            {
+                "name": "sova",
+                "url": "https://www.youtube.com/embed/oF2wMVAylZ4"
+            },
+            {
+                "name": "phoenix",
+                "url": "https://www.youtube.com/embed/ltcs81Kz5-g"
+            },
+            {
+                "name": "kay-o",
+                "url": "https://www.youtube.com/embed/ccUg0mZaPVI"
+            }
+
+
+        ]
+    }
+
+]
