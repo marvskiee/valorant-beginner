@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: url('/assets/img/valo1.jpg');
+    background-image: url(../img/valo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -365,6 +365,33 @@ h2,h1,
 }
 .section-lineup iframe{
     height: 16em;
+}
+
+.section-faq{
+    background-color: #ece7e1;
+}
+.section-faq .agent-bg1{
+    margin: 0 auto;
+    padding: 2em;
+    max-width: 700px;
+}
+.section-faq h1{
+    color: #FF4655;
+    margin-top: 0;
+}
+.section-faq ul{
+    padding: 1.5em;
+    margin: 0em;
+}
+.section-faq li{
+    padding-bottom: .5em;
+}
+.section-faq p{
+    line-height: 1.5em;
+}
+.section-faq span{
+    color: #FF4655;
+    font-weight: bolder;
 }
 
 /* RESPONSIVE WHEN MOBILE DEVICE  */

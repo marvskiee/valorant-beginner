@@ -3,7 +3,7 @@ let menuclose = document.getElementById('toggle-close');
 let menucontainer = document.querySelector('.nav-menu');
 menuopen.addEventListener('click', function(){
     menucontainer.classList.add('nav-menu-active');
-    menucontainer.style.transform = 'translateX(-12.5em)';
+    menucontainer.style.transform = 'translateX(-11em)';
 });
 menuclose.addEventListener('click', function(){
     console.log('close');
