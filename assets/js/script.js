@@ -62,7 +62,7 @@ function guide_page(query){
     let xhttpguide = new XMLHttpRequest();
     xhttpguide.onload = function(){
         let data = JSON.parse(this.responseText);
-        for(let d of data){
+        for(let d of data["record"]){
             for(let e of d['guide']){
                 if(e['name']==query){
                     default_video.innerHTML = `<iframe width="560" height="315" src="${e['url']}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
