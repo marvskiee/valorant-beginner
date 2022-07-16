@@ -2,8 +2,8 @@ let path = window.location.pathname;
 let page = path.substring(path.lastIndexOf('/'));
 let query = window.location.search.replace('?name=','');
 const xhttp = new XMLHttpRequest();
-const agentjson_link = 'https://api.jsonbin.io/b/610c947be1b0604017a77381';
-const lineupjson_link = 'https://api.jsonbin.io/b/610c94f6d5667e403a3a20cb';
+const agentjson_link = 'https://api.jsonbin.io/v3/b/610c947be1b0604017a77381';
+const lineupjson_link = 'https://api.jsonbin.io/v3/b/610c94f6d5667e403a3a20cb';
 console.log(page);
 switch(page){
     case '/guide.html': 
