@@ -25,10 +25,10 @@ switch(page){
 let agent_gallery = document.getElementById('agent-gallery');
 if(agent_gallery!=null){
     xhttp.onload = function(){
-        image = JSON.parse(this.responseText);
+        let image = JSON.parse(this.responseText);
         console.log(image);
         let count = 1
-        for(let i of image){
+        for(let i of image["record"]){
             agent_gallery.innerHTML+= `<div class="agent-border">
                 <a href="agent.html?name=${i['name'].replace('/','-').toLowerCase()}">
                 <img src="${i['image']}" alt="">
@@ -48,8 +48,8 @@ function guide_page(query){
     let agent_name = document.querySelector('.card-body h1');
     let default_video = document.querySelector('.video-default');
     xhttp.onload = function(){
-        image = JSON.parse(this.responseText);
-        for(let i of image){
+        let image = JSON.parse(this.responseText);
+        for(let i of image["record"]){
             if(i['name'].toLowerCase()==query.replace('-','/')){
                 agent_name.innerHTML = i['name'];
                 image_container.innerHTML= `
@@ -79,8 +79,8 @@ function agent_page(query){
     let card_container = document.querySelector('.section-agent .card-body');
 
     xhttp.onload = function(){
-        image = JSON.parse(this.responseText);
-        for(let i of image){
+        let image = JSON.parse(this.responseText);
+        for(let i of image["record"]){
             let name = i['name'].toLowerCase().replace('/','-')
             if(i['name'].toLowerCase()==query.replace('-','/')){
                 image_container.innerHTML= `<img src="${i['image']}">`;
@@ -107,8 +107,8 @@ function lineup_page(query){
     let default_video = document.querySelector('.video-default');
     let maps = document.querySelector('.maps-list');
     xhttp.onload = function(){
-        image = JSON.parse(this.responseText);
-        for(let i of image){
+        let image = JSON.parse(this.responseText);
+        for(let i of image["record"]){
             if(i['name'].toLowerCase()==query.replace('-','/')){
                 agent_name.innerHTML = i['name'];
                 image_container.innerHTML= `
@@ -123,7 +123,7 @@ function lineup_page(query){
     let lineup_name = document.getElementById('lineup-name');
     xhttplineup.onload = function(){
         let data = JSON.parse(this.responseText);
-        for(let d of data){
+        for(let d of data["record"]){
             for(let e of d['lineup']){
                 if(e['name']==query){
                     default_video.innerHTML = `<iframe width="560" height="315" src="${e['breeze']}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
@@ -158,9 +158,9 @@ function ability_page(query){
     let ability_description = document.querySelector('.ability-content p');
     let ability_name = document.querySelector('.ability-content h3');
     xhttp.onload = function(){
-        image = JSON.parse(this.responseText);
+        let image = JSON.parse(this.responseText);
         
-        for(let i of image){
+        for(let i of image["record"]){
             
             if(i['name'].toLowerCase()==query.replace('-','/')){
                 agent_name.innerHTML = i['name'];
